@@ -2,9 +2,9 @@ body {}
 
 
 a {
-	font-family: georgia;
+	font-family: avenir;
 	text-decoration: none; 
-	color: purple;
+	color: grey;
 }
 
 a:hover {
@@ -14,3 +14,43 @@ a:hover {
 }
 
 img {}
+
+p {
+	font-family: helvetica;
+	max-width: 459px;
+}
+
+h1 {
+	font-family: avenir;
+}
+
+
+/*Nav styling*/
+
+
+		.nav {
+				padding-left: 0;
+				margin-left: 0;
+				list-style: none;
+				
+		}
+
+		.nav > li {
+			display: inline-block;
+		}
+
+		.nav > li > a {
+			display: block; 
+		}
+
+		.nav-center {
+			text-align: center;
+		}
+
+		li {
+			font-family: avenir;
+			font-weight: bolder;
+			font-style: italic;
+			
+		}
+
