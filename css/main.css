@@ -16,7 +16,10 @@ a:hover {
 
 }
 
-img {}
+img {
+
+	max-width: 50%;
+}
 
 p {
 	font-family: helvetica;
@@ -32,6 +35,11 @@ h1 {
 .center {
 
 	margin-left: auto;
+}
+
+.spacing{
+
+	padding-bottom: 10px;
 }
 
 
