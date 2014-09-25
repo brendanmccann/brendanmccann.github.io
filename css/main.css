@@ -1,4 +1,7 @@
-body {}
+body {
+
+	margin-left: 2em;
+}
 
 
 a {
@@ -18,11 +21,21 @@ img {}
 p {
 	font-family: helvetica;
 	max-width: 459px;
+	text-align: left;
 }
 
 h1 {
 	font-family: avenir;
+	text-align: left;
 }
+
+.center {
+
+	margin-left: auto;
+}
+
+
+
 
 
 /*Nav styling*/
@@ -53,4 +66,5 @@ h1 {
 			font-style: italic;
 			
 		}
+
 
