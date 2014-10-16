@@ -28,7 +28,7 @@ p {
 
 h1 {
 	font-family: avenir;
-	font-size: 40pt;
+	font-size: 1.5em;
 	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
@@ -55,7 +55,12 @@ h1 {
 }
 
 .port {
-	max-width: 50%;
+	max-width: 70%;
+}
+
+
+.drive {
+	max-width: 100%
 }
 
 
