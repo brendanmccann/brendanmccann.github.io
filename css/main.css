@@ -1,3 +1,19 @@
+/** {
+	border: dotted; blue;
+}*/
+
+
+.hoverstate {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.hoverstate:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
 body {
 }
 
