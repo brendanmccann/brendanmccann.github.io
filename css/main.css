@@ -1,25 +1,28 @@
-/** {
-	border: dotted; blue;
-}*/
+/*font import*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,800,400);
 
 
 .hoverstate {
-    opacity: 0.4;
+    opacity: 1.0;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 .hoverstate:hover {
-    opacity: 1.0;
+    opacity: 0.4;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 
-body {
+body{
+	font-family: helvetica;
+	font-weight: 10px;
+	
 }
 
 
 a {
-	font-family: avenir;
+	font-family: 'Open Sans';
+	font-weight: 600;
 	text-decoration: none; 
 	color: black;
 }
@@ -105,9 +108,7 @@ h1 {
 		}
 
 		li {
-			font-family: avenir;
-			font-weight: bolder;
-			font-style: italic;
+			
 			
 		}
 
