@@ -1,17 +1,23 @@
 /*font import*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,800,400);
 
-
 .hoverstate {
     opacity: 1.0;
     filter: alpha(opacity=40); /* For IE8 and earlier */
+    z-index: 0;
 }
 
 .hoverstate:hover {
     opacity: 0.4;
     filter: alpha(opacity=100); /* For IE8 and earlier */
+    z-index: +2;
 }
 
+
+
+.center {
+margin-left: 25%;
+}
 
 body{
 	font-family: helvetica;
@@ -79,7 +85,8 @@ h1 {
 
 
 .drive {
-	max-width: 100%
+	max-width: 100%;
+	margin-left: 25%;
 }
 
 
@@ -112,4 +119,8 @@ h1 {
 			
 		}
 
+
+
+
+/*/pace*/
 
