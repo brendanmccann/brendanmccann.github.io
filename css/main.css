@@ -26,15 +26,15 @@ margin-top: 5%;
 
 
 body{
-	font-family: 'Share Tech Mono';
-	font-weight: 10px;
+	font-family: 'Ubuntu';
+	font-weight: 11px;
 	
 }
 
 
 a {
-	font-family: 'Share Tech Mono';
-	font-weight: 400;
+	font-family: 'Ubuntu';
+	font-weight: 14px;
 	text-decoration: none; 
 	color: gray;
 }
